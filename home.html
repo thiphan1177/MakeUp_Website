@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Cormorant:light|Forum|League+Script|Megrim|Poiret+One|Raleway+Dots" rel="stylesheet">
+  <!--Linda is the person who has my refund-->
+
+  <title>Thao's Beauty Spot</title>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col heading">
+        <p>Thao Phan</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--  <a class="navbar-brand" href="#">Thao's Beauty Diary</a> -->
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+    <div class="row main-part">
+      <div class="col-md-6 left-half">
+        <div class="slideshow">
+          <center><img name="slide" /></center>
+        </div>
+      </div>
+      <div class="col-md-6 right-half">
+        <div class="prettybox3">
+          <div class="prettybox2">
+            <div class="pretty-box1">
+              <p>Thoughtful Creator<br>Happy Artist<br>Agile Developer<br>Optimistic Old Soul</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="hidden-lg-up col-md-6">
+      <div class="prettybox4">
+      <p>Thoughtful Creator<br>Happy Artist<br>Agile Developer<br>Optimistic Old Soul</p>
+    </div>
+  </div> -->
+
+</div>
+
+<div class="row">
+  <div class="col copyright">
+    <p>&#169; Thao Phan 2017. All rights reserved</p>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+var i = 0; // Start point
+var images = []; // Images array
+var time = 5000; // Time between switch
+
+// Image List
+images[0] = "pic1.JPG";
+images[1] = "pic2.JPG";
+images[2] = "pic3.JPG";
+images[3] = "pic4.JPG";
+
+// Change image
+function changeImg() {
+  document.slide.src = images[i];
+
+  // check if index is under max
+  if (i < images.length-1){
+    //add 1 to index
+    i++;
+  } else {
+    // reset back to 0
+    i = 0;
+  }
+
+  // run function ever x seconds
+  setTimeout("changeImg()", time);
+}
+// run function when page loads
+window.onload = changeImg;
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+html, body, .container-fluid {
+  height: 100%;
+
+}
+
+nav {
+  font-family: 'League Script', cursive;
+
+
+}
+.heading {
+  height: 12%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+.heading > p {
+  /*font-size: 2.7vw;*/
+  font-size: 35px;
+  font-family: 'Megrim', cursive;
+  font-family: 'Cormorant', serif;
+  font-weight: lighter;
+
+}
+.navigation {
+  height: 6%;
+
+}
+.main-part {
+  height: 80%;
+
+}
+
+.copyright {
+  height: 2%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  padding-top: .5vw;
+  padding-bottom: .3vw;
+
+
+}
+.copyright > p {
+  font-family: 'Cormorant', serif;
+
+}
+
+.left-half {
+  background: #D6EFFF;
+  /*background-image: url("cactus.jpeg");*/
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+.right-half {
+  background: #FE654F;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.prettybox4 {
+  background: #FE654F;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+.prettybox4 > p {
+  background-color: white;
+  border-style: solid;
+  border-color: #FED18C;
+  color: #2F2F2F;
+  font-family: 'League Script', cursive;
+  font-size: 40px;
+
+}
+
+/*.prettybox3 {
+  background-color: #FED99B;
+  padding: 3vw;
+  border-style: solid;
+  border-color: #FEFEFF;
+}
+.prettybox2 {
+  background-color: #D6EFFF;
+  padding: 3vw;
+  border-style: solid;
+  border-color: #FEFEFF;
+}*/
+
+.pretty-box1 > p {
+  background-color: white;
+  padding: 3vw;
+  border-style: solid;
+  border-color: #FED18C;
+  /*941C2F*/
+
+  font-family: 'Cormorant', serif;
+  font-family: 'Megrim', cursive;
+  font-family: 'Poiret One', cursive;
+  color: #2F2F2F;
+  font-family: 'League Script', cursive;
+  /*font-family: 'Antic Didone', serif;*/
+  font-size: 35px;
+  /*font-size: 2.2vw;*/
+}
+
+.slideshow {
+  background-color: white;
+
+}
+img {
+  transform: rotate(90deg);
+  background-color: white;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: 75%;
+
+}
