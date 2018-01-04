@@ -50,18 +50,31 @@ nav {
 
 .left-half {
   background: #D6EFFF;
+  background-image: url("purple_stripes.jpg");
+  background-size: auto 100%;
   /*background-image: url("cactus.jpeg");*/
   display: flex;
   justify-content:center;
   align-items:center;
+  border-top: 1px solid #C29979;
+  border-bottom: 1px solid #C29979;
 
 }
 
 .right-half {
   background: #FE654F;
+  background: #CC5803;
+  background: #D84A05;
+  background: #702632;
+  background: #89023E;
+  background: #DC493A;
   display:flex;
   justify-content:center;
   align-items:center;
+  border-top: 1px solid #C29979;
+  border-bottom: 1px solid #C29979;
+
+
 }
 
 .prettybox4 {
@@ -99,6 +112,9 @@ nav {
   padding: 3vw;
   border-style: solid;
   border-color: #FED18C;
+  /*border-color: #91A6FF; periwinkle blue*/
+  border-color: #C7EFCF;
+  border-color: #A8C256;
   /*941C2F*/
 
   font-family: 'Cormorant', serif;
