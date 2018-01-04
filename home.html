@@ -13,21 +13,52 @@
   <link href="https://fonts.googleapis.com/css?family=Cormorant:light|Forum|League+Script|Megrim|Poiret+One|Raleway+Dots" rel="stylesheet">
   <!--Linda is the person who has my refund-->
 
-  <title>Thao's Beauty Spot</title>
+  <title>Thao's Beauty Diary</title>
 </head>
 <body>
 
   <div class="container-fluid">
     <div class="row">
       <div class="col heading">
-        <p>Thao Phan</p>
+        <p>
+          <a class="heading-link" href="#">Thao Phan<img class="heart-icon" src="heart-icon.png"></a>
+
+        </p>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col">
+<!--
+<div class="row">
+  <div class="col navigation">
 
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <nav class="navbar navbar-expand-sm bg-faded navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+</div>
+
+-->
+
+    <div class="row">
+      <div class="col-12 navigation">
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-md navbar-light bg-faded">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,13 +68,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Portfolio</a>
+                <a class="nav-link active nav-stuff" href="#">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link nav-stuff" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link nav-stuff" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -84,9 +115,6 @@
 </div>
 
 
-
-
-
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -96,13 +124,22 @@
 <script type="text/javascript">
 var i = 0; // Start point
 var images = []; // Images array
-var time = 5000; // Time between switch
+var time = 4000; // Time between switch
 
 // Image List
-images[0] = "pic1.JPG";
-images[1] = "pic2.JPG";
-images[2] = "pic3.JPG";
-images[3] = "pic4.JPG";
+images[0] = "pic6.jpg";
+images[1] = "pic7.png";
+images[2] = "pic8.jpg";
+images[3] = "pic9.jpg";
+images[4] = "pic10.jpg";
+images[5] = "pic11.jpg";
+images[6] = "pic12.jpg";
+images[7] = "pic13.png";
+images[8] = "pic14.jpg";
+images[9] = "pic15.jpg";
+images[10] = "pic16.jpg";
+images[11] = "pic17.jpg";
+
 
 // Change image
 function changeImg() {
